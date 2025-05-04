@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: lightblue;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  input.error-border {
+    border: 2px solid red;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  #strengthIndicator {
+    height: 5px;
+    margin-top: 5px;
+  }
+  
+  .weak {
+    background-color: red;
+    width: 33%;
+  }
+  .medium {
+    background-color: orange;
+    width: 66%;
+  }
+  .strong {
+    background-color: green;
+    width: 100%;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
