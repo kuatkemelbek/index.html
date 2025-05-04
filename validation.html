@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тіркелу формасы</title>
+  <link rel="stylesheet" href="validation.css" />
+</head>
+<body>
+  <form id="registerForm">
+    <label>Аты: <input type="text" id="name" required /></label>
+    <span class="error" id="nameError"></span>
+
+    <label>Email: <input type="email" id="email" required /></label>
+    <span class="error" id="emailError"></span>
+
+    <label>Құпия сөз: 
+      <input type="password" id="password" required />
+      <div id="strengthIndicator"></div>
+    </label>
+    <span class="error" id="passwordError"></span>
+
+    <label>Құпия сөзді растау: <input type="password" id="confirmPassword" required /></label>
+    <span class="error" id="confirmPasswordError"></span>
+
+    <label>Телефон нөмірі: <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" /></label>
+    <span class="error" id="phoneError"></span>
+
+    <button type="submit" id="submitBtn" disabled>Жіберу</button>
+  </form>
+
+  <script src="validation.js"></script>
+</body>
+</html>
